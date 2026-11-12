@@ -1,0 +1,12 @@
+# Never commit data files: real exports may contain customer data.
+*.xlsx
+*.xls
+*.csv
+!data/corrections.csv
+!data/department_mapping.csv
+output/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
